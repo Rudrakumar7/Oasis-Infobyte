@@ -1,0 +1,22 @@
+# Nmap 7.95 scan initiated Fri Aug 15 02:44:05 2025 as: /usr/lib/nmap/nmap --privileged -sV -oN Task1/nmap_scan_results.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000023s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.95%I=7%D=8/15%Time=689ED73B%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,64,"`\0\0\0\n11\.8\.2-MariaDB-1\x20from\x20Debian\0=\0\0\0t\\Q\^d\[}
+SF:\$\0\xfe\xff-\x02\0\xff\x81\x15\0\0\0\0\0\0=\0\0\x007\)gM\*\(\+<0w\*i\0
+SF:mysql_native_password\0")%r(GenericLines,9C,"`\0\0\0\n11\.8\.2-MariaDB-
+SF:1\x20from\x20Debian\0=\0\0\0t\\Q\^d\[}\$\0\xfe\xff-\x02\0\xff\x81\x15\0
+SF:\0\0\0\0\0=\0\0\x007\)gM\*\(\+<0w\*i\0mysql_native_password\x004\0\0\x0
+SF:1\xffj\x04#HY000Proxy\x20header\x20is\x20not\x20accepted\x20from\x20127
+SF:\.0\.0\.1")%r(LDAPBindReq,64,"`\0\0\0\n11\.8\.2-MariaDB-1\x20from\x20De
+SF:bian\0N\0\0\0Xeq\*zLKq\0\xfe\xff-\x02\0\xff\x81\x15\0\0\0\0\0\0=\0\0\0y
+SF:\+hM\(zTumEQG\0mysql_native_password\0")%r(afp,64,"`\0\0\0\n11\.8\.2-Ma
+SF:riaDB-1\x20from\x20Debian\0X\0\0\0acL3WAzf\0\xfe\xff-\x02\0\xff\x81\x15
+SF:\0\0\0\0\0\0=\0\0\0q&fQA4}<Rf\*>\0mysql_native_password\0");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 15 02:44:22 2025 -- 1 IP address (1 host up) scanned in 16.57 seconds
